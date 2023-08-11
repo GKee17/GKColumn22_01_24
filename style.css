@@ -41,6 +41,7 @@ p {
 }
 
 .subhead.author-photo {
+    position: relative;
     width: 48px;
     height: 48px;
     float: left;
