@@ -250,8 +250,7 @@ white-space: initial;
 
 .author-photo {
   mix-blend-mode: multiply;
-  transform: scale(0.5);
-  max-width: 90%;
+  max-width: 60%;
   min-width: 350px;
 }
 
