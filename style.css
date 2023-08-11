@@ -29,7 +29,6 @@ p {
   position: relative;
     max-width: 100%;
 }
-
 .subhead {
   text-transform: uppercase;
   border-bottom: 2px solid #2f2f2f;
@@ -39,7 +38,6 @@ p {
   padding: 12px 0px 12px 0px;
   margin-bottom: 10px;
 }
-
 .weatherforcastbox {
   position: relative;
   width: 12%;
@@ -49,24 +47,6 @@ p {
   line-height: 20px;
   display: inline-block;
   margin: 0 50px 20px -360px;
-}
-.author-headline-wrapper {
-  display: flex;
-  align-items: center;
-  border-bottom: 2px solid #2f2f2f;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-.author-photo {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
-}
-
-.headline.hl3, .headline.hl4 {
-  display: inline-block;
-  margin-right: 10px;
 }
 .content {
   font-size: 0;
@@ -79,13 +59,8 @@ p {
   margin-left: -0.6%;
   margin-right: 4%;
 }
-
 .collumns {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
-
 .collumn {
   font-size: 14px;
   line-height: 20px;
@@ -96,14 +71,12 @@ p {
   transition: all 0.7s;
    margin-bottom: 50px;
     margin-right: 1%;
-    max-width: 350px;
-  flex: 1
+    min-width: 350px;
 }
 .collumn + .collumn {
   border-left: 1px solid #2f2f2f;
   height: 150%
 }
-
 .collumn .headline {
   text-align: center;
   line-height: normal;
@@ -118,7 +91,6 @@ p {
   text-transform: uppercase;
   padding: 10px 0 10px 0;
 }
-
 .collumn .headline.hl2 {
   font-weight: 400;
   font-style: italic;
@@ -126,7 +98,6 @@ p {
   box-sizing: border-box;
   padding: 10px 0 10px 0;
 }
-
 .collumn .headline.hl2:before {
   border-top: 1px solid #2f2f2f;
   content: "";
@@ -143,27 +114,21 @@ p {
   display: block;
   margin: 0 auto;
 }
-
 .collumn .headline.hl3 {
-    font-weight: 400;
-    font-style: italic;
-    font-size: 24px;
-    box-sizing: border-box;
-    padding: 10px 0;
-    overflow: hidden;
-    white-space: initial;
-    flex: 1;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
+  overflow: hidden;
+white-space: initial;
 }
 .collumn .headline.hl4 {
   font-weight: 700;
   font-size: 12px;
- box-sizing: border-box;
-    padding: 10px 0;
-    overflow: hidden;
-    white-space: initial;
-    flex: 1;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
 }
-
 .collumn .headline.hl4:before {
   border-top: 1px solid #2f2f2f;
   content: "";
@@ -180,7 +145,6 @@ p {
   display: block;
   margin: 0 auto;
 }
-
 .collumn .headline.hl5 {
   font-weight: 400;
   font-size: 42px;
@@ -280,6 +244,7 @@ p {
   mix-blend-mode: multiply;
   transform: scale(0.5);
   max-width: 90%;
+  max-width: 60%;
   min-width: 350px;
 }
 
