@@ -64,6 +64,10 @@ p {
   margin-right: 20px;
 }
 
+.headline.hl3, .headline.hl4 {
+  display: inline-block;
+  margin-right: 10px;
+}
 .content {
   font-size: 0;
   line-height: 0;
@@ -75,7 +79,11 @@ p {
   margin-left: -0.6%;
   margin-right: 4%;
 }
+
 .collumns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .collumn {
@@ -88,7 +96,8 @@ p {
   transition: all 0.7s;
    margin-bottom: 50px;
     margin-right: 1%;
-    min-width: 350px;
+    max-width: 350px;
+  flex: 1
 }
 .collumn + .collumn {
   border-left: 1px solid #2f2f2f;
@@ -172,9 +181,6 @@ p {
   margin: 0 auto;
 }
 
-.headline.hl3, .headline.hl4 {
-  display: block;
-}
 .collumn .headline.hl5 {
   font-weight: 400;
   font-size: 42px;
