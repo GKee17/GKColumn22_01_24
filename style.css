@@ -51,18 +51,18 @@ p {
   margin: 0 50px 20px -360px;
 }
 .author-headline-wrapper {
-    display: flex;
-    align-items: left;
-    border-bottom: 2px solid #2f2f2f;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #2f2f2f;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .author-photo {
-    mix-blend-mode: multiply;
-    width: 100px;
-    height: auto;
-    margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
 }
 
 .content {
@@ -173,6 +173,9 @@ p {
   margin: 0 auto;
 }
 
+.headline.hl3, .headline.hl4 {
+  display: block;
+}
 .collumn .headline.hl5 {
   font-weight: 400;
   font-size: 42px;
