@@ -81,11 +81,8 @@ p {
   height: 150%
 }
 
-.collumn.author-photo {
-    position: relative;
-    width: 12%;
-    float: left;
-    margin-right: 10px;
+.collumn .author-photo {
+     margin: 0 0 20px;
 }
 .collumn .headline {
   text-align: center;
