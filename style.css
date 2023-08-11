@@ -40,15 +40,6 @@ p {
   margin-bottom: 10px;
 }
 
-.subhead.author-photo {
-    position: relative;
-    width: 12%;
-    width: 48px;
-    height: 48px;
-    float: left;
-    margin-right: 10px;
-}
-
 .weatherforcastbox {
   position: relative;
   width: 12%;
@@ -88,6 +79,13 @@ p {
 .collumn + .collumn {
   border-left: 1px solid #2f2f2f;
   height: 150%
+}
+
+.collumn.author-photo {
+    position: relative;
+    width: 12%;
+    float: left;
+    margin-right: 10px;
 }
 .collumn .headline {
   text-align: center;
