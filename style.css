@@ -33,6 +33,14 @@ p {
 .headerobjectswrapper {
 }
 
+/* Adding a style for the author's photograph */
+.headerobjectswrapper .author-photo {
+    width: 50px; /* Adjust as necessary for your desired size */
+    height: 50px; 
+    float: left; /* This makes it stay to the left */
+    margin-right: 10px; /* A little space between the photo and the header */
+}
+
 .subhead {
   text-transform: uppercase;
   border-bottom: 2px solid #2f2f2f;
