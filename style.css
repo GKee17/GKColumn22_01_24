@@ -250,8 +250,7 @@ white-space: initial;
 
 .author-photo {
   mix-blend-mode: multiply;
-  max-width: 60%;
-  min-width: 350px;
+  transform: scale(0.5);
 }
 
 .headerobjectswrapper iframe {
