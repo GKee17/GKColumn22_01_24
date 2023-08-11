@@ -81,9 +81,6 @@ p {
   height: 150%
 }
 
-.collumn .author-photo {
-     margin: 0 0 20px;
-}
 .collumn .headline {
   text-align: center;
   line-height: normal;
@@ -247,6 +244,13 @@ white-space: initial;
 }
 .media {
   mix-blend-mode: multiply;
+  max-width: 90%;
+  min-width: 350px;
+}
+
+.author-photo {
+  mix-blend-mode: multiply;
+  transform: scale(0.5);
   max-width: 90%;
   min-width: 350px;
 }
