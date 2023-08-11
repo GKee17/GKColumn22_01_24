@@ -30,13 +30,6 @@ p {
     max-width: 100%;
 }
 
-.headerobjectswrapper .author-photo {
-    width: 48px;
-    height: 48px;
-    float: left;
-    margin-right: 10px;
-}
-
 .subhead {
   text-transform: uppercase;
   border-bottom: 2px solid #2f2f2f;
@@ -46,6 +39,14 @@ p {
   padding: 12px 0px 12px 0px;
   margin-bottom: 10px;
 }
+
+.subhead.author-photo {
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-right: 10px;
+}
+
 .weatherforcastbox {
   position: relative;
   width: 12%;
