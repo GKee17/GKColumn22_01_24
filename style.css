@@ -120,7 +120,7 @@ p {
   font-size: 20px;
   max-width: 55%;
   box-sizing: border-box;
-  padding: 2px 0 5px 20px;
+  padding: 5px 0 5px 20px;
   overflow: hidden;
   text-align: left;
 white-space: initial;
@@ -131,7 +131,7 @@ white-space: initial;
   max-width: 40%;
   min-width: 150px;
   box-sizing: border-box;
-  padding: 5px 0 0px 0px;
+  padding: 8px 0 0px 0px;
   float: left;
 }
 
