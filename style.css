@@ -96,7 +96,7 @@ p {
   font-style: italic;
   font-size: 24px;
   box-sizing: border-box;
-  padding: 10px 0 10px 0;
+
 }
 .collumn .headline.hl2:before {
   border-top: 1px solid #2f2f2f;
@@ -115,24 +115,39 @@ p {
   margin: 0 auto;
 }
 .collumn .headline.hl3 {
-  font-weight: 400;
+  font-weight: 600;
   font-style: italic;
-  font-size: 24px;
+  font-size: 20px;
+  max-width: 55%;
   box-sizing: border-box;
-  padding: 10px 0 10px 0;
+  padding: 2px 0 5px 20px;
   overflow: hidden;
+  text-align: left;
 white-space: initial;
 }
+
+.collumn .author-photo {
+  mix-blend-mode: multiply;
+  max-width: 40%;
+  min-width: 150px;
+  box-sizing: border-box;
+  padding: 5px 0 5px 0px;
+  float: left;
+}
+
 .collumn .headline.hl4 {
   font-weight: 700;
   font-size: 12px;
+  width: 160px;
+   text-align: left;
   box-sizing: border-box;
-  padding: 10px 0 10px 0;
+  padding: 5px 0 10px 20px;
 }
 .collumn .headline.hl4:before {
   border-top: 1px solid #2f2f2f;
   content: "";
-  width: 100px;
+  width: 120px;
+  float: left;
   height: 7px;
   display: block;
   margin: 0 auto;
@@ -140,7 +155,8 @@ white-space: initial;
 .collumn .headline.hl4:after {
   border-bottom: 1px solid #2f2f2f;
   content: "";
-  width: 100px;
+  width: 120px;
+  float: left;
   height: 10px;
   display: block;
   margin: 0 auto;
@@ -240,14 +256,13 @@ white-space: initial;
   min-width: 350px;
 }
 
-.author-photo {
-  mix-blend-mode: multiply;
-  transform: scale(0.5);
-  max-width: 90%;
-  max-width: 60%;
-  min-width: 350px;
-}
 
+.hl3 {
+    font-size: 24px;         /* Adjust based on your preference */
+    margin: 0;               /* Remove default margins */
+    display: inline-block;   /* Display the headline inline with the photo */
+    vertical-align: middle; 
+  
 .headerobjectswrapper iframe {
     position: absolute;
     top: 0;
