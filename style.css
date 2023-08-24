@@ -118,6 +118,7 @@ p {
   font-weight: 600;
   font-style: italic;
   font-size: 20px;
+  height: 94px;
   max-width: 55%;
   box-sizing: border-box;
   padding: 2px 0 5px 20px;
@@ -128,8 +129,7 @@ white-space: initial;
 
 .collumn .author-photo {
   mix-blend-mode: multiply;
-  max-width: 40%;
-  min-width: 150px;
+  height: 150px;
   box-sizing: border-box;
   padding: 5px 0 0px 0px;
   float: left;
