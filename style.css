@@ -118,7 +118,7 @@ p {
   font-weight: 600;
   font-style: italic;
   font-size: 20px;
-  height: 94px;
+  height: 105px;
   max-width: 55%;
   box-sizing: border-box;
   padding: 2px 0 5px 20px;
@@ -256,13 +256,6 @@ white-space: initial;
   min-width: 350px;
 }
 
-
-.hl3 {
-    font-size: 24px;         /* Adjust based on your preference */
-    margin: 0;               /* Remove default margins */
-    display: inline-block;   /* Display the headline inline with the photo */
-    vertical-align: middle; 
-  
 .headerobjectswrapper iframe {
     position: absolute;
     top: 0;
