@@ -271,7 +271,3 @@ a:link {
 a:visited {
   color: blue;
 }
-
-a:link, a:visited {
-  text-decoration: none;
-}
