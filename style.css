@@ -121,7 +121,7 @@ p {
   height: 105px;
   max-width: 55%;
   box-sizing: border-box;
-  padding: 2px 0 5px 20px;
+  padding: 0px 0 5px 20px;
   overflow: hidden;
   text-align: left;
 white-space: initial;
