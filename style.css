@@ -266,8 +266,16 @@ white-space: initial;
 
 a:link {
   color: blue;
+  text-decoration-line: underline;
 }
 
 a:visited {
   color: blue;
+  text-decoration-line: underline;
+}
+
+a:link, a:visited {
+  color: blue;
+  text-decoration-line: underline;
+  text-decoration: none;
 }
